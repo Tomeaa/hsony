@@ -266,7 +266,7 @@ def send_file(message):
 		own = types.InlineKeyboardButton(f"OWNAR", url="https://t.me/hhhh4x")
 		key.add(ccli,badd,nch,ap,ccnn, cvvv,own )
 		bot.edit_message_text(chat_id=message.chat.id, message_id=idmss.message_id,text="Checker Run ✔", reply_markup=key)
-		time.sleep(20)
+		time.sleep(30)
 		
 bot.polling()
 
